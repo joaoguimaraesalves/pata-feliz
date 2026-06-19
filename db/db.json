@@ -1,0 +1,288 @@
+{
+  "portes": [
+    {
+      "id": 1,
+      "descricao": "Pequeno (até 10kg)"
+    },
+    {
+      "id": 2,
+      "descricao": "Médio (10kg a 25kg)"
+    },
+    {
+      "id": 3,
+      "descricao": "Grande (25kg a 45kg)"
+    },
+    {
+      "id": 4,
+      "descricao": "Gigante (acima de 45kg)"
+    }
+  ],
+  "pelagens": [
+    {
+      "id": 1,
+      "descricao": "Curta"
+    },
+    {
+      "id": 2,
+      "descricao": "Média"
+    },
+    {
+      "id": 3,
+      "descricao": "Longa"
+    },
+    {
+      "id": 4,
+      "descricao": "Dupla / Lanosa"
+    }
+  ],
+  "status_pedido": [
+    {
+      "id": 1,
+      "descricao": "Agendado"
+    },
+    {
+      "id": 2,
+      "descricao": "Pet recebido"
+    },
+    {
+      "id": 3,
+      "descricao": "Em banho"
+    },
+    {
+      "id": 4,
+      "descricao": "Em tosa"
+    },
+    {
+      "id": 5,
+      "descricao": "Pronto para retirada"
+    },
+    {
+      "id": 6,
+      "descricao": "Finalizado"
+    }
+  ],
+  "adicionais": {
+    "servicos_extras": [
+      {
+        "id": 1,
+        "nome": "Corte de unhas",
+        "descricao": "Corte e lixamento das unhas com material esterilizado.",
+        "foto": "https://placedog.net/120/120?id=10",
+        "valor": 15,
+        "eh_novidade": false
+      },
+      {
+        "id": 2,
+        "nome": "Limpeza de ouvido",
+        "descricao": "Higienização cuidadosa dos ouvidos com produtos veterinários.",
+        "foto": "https://placedog.net/120/120?id=11",
+        "valor": 12,
+        "eh_novidade": false
+      },
+      {
+        "id": 3,
+        "nome": "Escovação dental",
+        "descricao": "Escovação com pasta enzimática para hálito fresco.",
+        "foto": "https://placedog.net/120/120?id=12",
+        "valor": 20,
+        "eh_novidade": true
+      },
+      {
+        "id": 4,
+        "nome": "Hidratação extra",
+        "descricao": "Máscara hidratante para pelos mais macios e brilhantes.",
+        "foto": "https://placedog.net/120/120?id=13",
+        "valor": 25,
+        "eh_novidade": true
+      }
+    ],
+    "mimos": [
+      {
+        "id": 1,
+        "nome": "Laço ou gravatinha",
+        "descricao": "Acessório fofo para o seu pet sair estiloso.",
+        "foto": "https://placedog.net/120/120?id=14",
+        "valor": 8,
+        "eh_novidade": false
+      },
+      {
+        "id": 2,
+        "nome": "Bandana temática",
+        "descricao": "Bandana de tecido com estampas da estação.",
+        "foto": "https://placedog.net/120/120?id=15",
+        "valor": 10,
+        "eh_novidade": false
+      },
+      {
+        "id": 3,
+        "nome": "Perfume premium",
+        "descricao": "Colônia pet hipoalergênica de longa duração.",
+        "foto": "https://placedog.net/120/120?id=16",
+        "valor": 12,
+        "eh_novidade": true
+      },
+      {
+        "id": 4,
+        "nome": "Lenço aromático",
+        "descricao": "Lenço perfumado preso à coleira.",
+        "foto": "https://placedog.net/120/120?id=17",
+        "valor": 6,
+        "eh_novidade": false
+      }
+    ]
+  },
+  "catalogo": {
+    "servicos": [
+      {
+        "id": 1,
+        "nome": "Banho Simples",
+        "foto": "https://placedog.net/400/300?id=1",
+        "descricao": "Banho com shampoo neutro, secagem completa, escovação e finalização com perfume suave. Ideal para a manutenção da higiene semanal do seu pet.",
+        "valor": 40,
+        "eh_novidade": false
+      },
+      {
+        "id": 2,
+        "nome": "Banho & Tosa",
+        "foto": "https://placedog.net/400/300?id=2",
+        "descricao": "O combo clássico: banho completo + tosa no padrão da raça ou no estilo que você preferir. Inclui secagem, escovação e perfume.",
+        "valor": 70,
+        "eh_novidade": true
+      },
+      {
+        "id": 3,
+        "nome": "Tosa na Máquina",
+        "foto": "https://placedog.net/400/300?id=3",
+        "descricao": "Tosa total na máquina, perfeita para o verão e para pets com pelagem muito densa. Mais frescor e praticidade no dia a dia.",
+        "valor": 50,
+        "eh_novidade": false
+      },
+      {
+        "id": 4,
+        "nome": "Tosa Higiênica",
+        "foto": "https://placedog.net/400/300?id=4",
+        "descricao": "Aparo das regiões íntimas, patas e focinho para manter o pet limpo e confortável, sem alterar o visual geral.",
+        "valor": 35,
+        "eh_novidade": false
+      },
+      {
+        "id": 5,
+        "nome": "Spa Completo",
+        "foto": "https://placedog.net/400/300?id=5",
+        "descricao": "Experiência premium: banho, tosa, hidratação profunda, limpeza de ouvido, corte de unhas e muito carinho. O dia mais relaxante do seu pet.",
+        "valor": 110,
+        "eh_novidade": true
+      },
+      {
+        "id": 6,
+        "nome": "Banho Premium",
+        "foto": "https://placedog.net/400/300?id=6",
+        "descricao": "Banho com linha de perfumaria importada, máscara de brilho e finalização com colônia premium. Cheirinho que dura dias.",
+        "valor": 60,
+        "eh_novidade": true
+      },
+      {
+        "id": 7,
+        "nome": "Hidratação de Pelagem",
+        "foto": "https://placedog.net/400/300?id=7",
+        "descricao": "Tratamento intensivo para pelagens ressecadas ou opacas, devolvendo maciez, brilho e saúde aos fios.",
+        "valor": 45,
+        "eh_novidade": false
+      }
+    ]
+  },
+  "pedidos": [
+    {
+      "nomeCliente": "Maria Silva",
+      "nomePet": "Thor",
+      "porte": {
+        "id": 2,
+        "descricao": "Médio (10kg a 25kg)"
+      },
+      "pelagem": {
+        "id": 3,
+        "descricao": "Longa"
+      },
+      "servicosExtras": [
+        {
+          "id": 1,
+          "nome": "Corte de unhas",
+          "descricao": "Corte e lixamento das unhas com material esterilizado.",
+          "foto": "https://placedog.net/120/120?id=10",
+          "valor": 15,
+          "eh_novidade": false
+        }
+      ],
+      "mimos": [
+        {
+          "id": 1,
+          "nome": "Laço ou gravatinha",
+          "descricao": "Acessório fofo para o seu pet sair estiloso.",
+          "foto": "https://placedog.net/120/120?id=14",
+          "valor": 8,
+          "eh_novidade": false
+        }
+      ],
+      "servico": {
+        "id": 2,
+        "nome": "Banho & Tosa",
+        "foto": "https://placedog.net/400/300?id=2",
+        "descricao": "O combo clássico: banho completo + tosa no padrão da raça ou no estilo que você preferir.",
+        "valor": 70,
+        "eh_novidade": true
+      },
+      "statusId": "5",
+      "id": 1
+    },
+    {
+      "nomeCliente": "Ana Clara",
+      "nomePet": "tapioca",
+      "porte": {
+        "id": 1,
+        "descricao": "Pequeno (até 10kg)"
+      },
+      "pelagem": {
+        "id": 1,
+        "descricao": "Curta"
+      },
+      "servicosExtras": [
+        {
+          "id": 1,
+          "nome": "Corte de unhas",
+          "descricao": "Corte e lixamento das unhas com material esterilizado.",
+          "foto": "https://placedog.net/120/120?id=10",
+          "valor": 15,
+          "eh_novidade": false
+        }
+      ],
+      "mimos": [
+        {
+          "id": 3,
+          "nome": "Perfume premium",
+          "descricao": "Colônia pet hipoalergênica de longa duração.",
+          "foto": "https://placedog.net/120/120?id=16",
+          "valor": 12,
+          "eh_novidade": true
+        },
+        {
+          "id": 2,
+          "nome": "Bandana temática",
+          "descricao": "Bandana de tecido com estampas da estação.",
+          "foto": "https://placedog.net/120/120?id=15",
+          "valor": 10,
+          "eh_novidade": false
+        }
+      ],
+      "servico": {
+        "id": 1,
+        "nome": "Banho Simples",
+        "foto": "https://placedog.net/400/300?id=1",
+        "descricao": "Banho com shampoo neutro, secagem completa, escovação e finalização com perfume suave. Ideal para a manutenção da higiene semanal do seu pet.",
+        "valor": 40,
+        "eh_novidade": false
+      },
+      "statusId": "6",
+      "id": 2
+    }
+  ]
+}
